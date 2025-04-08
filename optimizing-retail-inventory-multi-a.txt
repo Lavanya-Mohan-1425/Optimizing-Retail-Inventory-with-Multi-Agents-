@@ -1,0 +1,18 @@
+optimizing-retail-inventory-multi-agents/
+│
+├── README.md                  # Project overview
+├── .gitignore                 # Files/folders to ignore in Git
+├── requirements.txt           # Python dependencies
+├── dataset/
+│   └── retail_inventory_data.csv
+├── agents/
+│   ├── demand_predictor.py
+│   ├── inventory_optimizer.py
+│   ├── supply_chain_analyzer.py
+│   ├── replenishment_scheduler.py
+│   └── coordinator.py
+├── utils/
+│   └── data_loader.py
+├── main.py                    # Orchestrator for all agents
+└── docs/
+    └── architecture.png       # Diagram of agent interaction
